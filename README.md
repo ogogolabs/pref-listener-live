@@ -1,10 +1,9 @@
 # PrefListener Live
 ## This SDK work in pair with "PrefListener" Plugin for Android Studio
 
-#  
-# 
-### "PrefListener Live" doesn't share your data!!!
 
+### "PrefListener Live" doesn't share your data!!!
+[![](https://jitpack.io/v/ogogolabs/pref-listener-live.svg)](https://jitpack.io/#ogogolabs/pref-listener-live)
 
 
 ### PrefListener is SDK for listening updates from:
@@ -39,7 +38,7 @@ dependencyResolutionManagement {
 Add the dependency
 ```groovy
 dependencies {
-  
+    implementation 'com.github.ogogolabs:pref-listener-live:${$last_version}'
 }
 ```
 
